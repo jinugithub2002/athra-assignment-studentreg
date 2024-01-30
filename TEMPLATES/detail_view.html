@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        div{
+            margin-top: 50px;
+            margin-left: 250px;
+            margin-right: 850px;
+            font-size: large;
+            text-align: center;
+            border: 2px solid;
+            animation: colorChange 4s infinite;
+            padding: 10px;
+        }
+        span{
+            padding: 10px;
+        }
+        
+        @keyframes colorChange {
+  0% {
+    border-color: red;
+  }
+  25% {
+    border-color: rgb(133, 133, 233);
+  }
+  50% {
+    border-color: rgb(92, 223, 92);
+  }
+  75% {
+    border-color: yellow;
+  }
+  100% {
+    border-color: rgb(173, 112, 112);
+  }
+}
+    </style>
+</head>
+<body>
+    <div>
+        
+    <span>Name : </span>{{cm.name}} <br>
+    <span>User Name : </span>{{cm.username}} <br>
+    <span>password : </span>{{cm.password}} <br>
+    <span>Email : </span>{{cm.email}} <br>
+
+
+    
+    </div>
+</body>
+</html>
